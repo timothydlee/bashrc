@@ -8,8 +8,6 @@ docs=$HOME/Documents;
 desk=$HOME/Desktop;
 yt=$dev/Personal/LBTA/YouTube;
 jen=$dev/Personal/JennaSite;
-napoleon="$dev/Napoleon"
-nap=$napoleon
 
 # Shortcut Aliases
 alias dev="cd $dev"
@@ -17,7 +15,6 @@ alias doc="cd $docs"
 alias desk="cd $desk"
 alias yt="cd $yt"
 alias jen="cd $jen"
-alias nap="cd $nap"
 
 ###########################################################################
 # Aliases: Github
@@ -45,8 +42,8 @@ alias gacpc="gaa; gcpc"
 alias garc="gaa;grc"
 alias gc="git checkout"
 alias gcm="git checkout master; gpr"
-alias gcd="git checkout develop; gpr"
-alias gcr="git checkout release; gpr"
+#alias gcd="git checkout develop; gpr"
+#alias gcr="git checkout release; gpr"
 alias gpu="git push -u origin HEAD"
 alias gaca="gaa; gca"
 alias gcan="git commit --amend --no-edit"
@@ -73,10 +70,39 @@ alias ete="npm run e2e"
 alias vbash="vim ~/.bashrc"
 alias cbash="code ~/.bashrc"
 alias sbash="source ~/.bashrc"
-alias cssh="code ~/.ssh/config"
 
 # Cocoa Pods
 alias pinit="pod init"
 alias pi="pod install"
 alias piru="pi --repo-update"
 alias podedit="code Podfile"
+
+###########################################################################
+# Nexus
+###########################################################################
+
+# Variables
+nexus="$dev/Nexus"
+
+# Aliases
+alias nxs="cd $nexus"
+
+###########################################################################
+# Napoleon
+###########################################################################
+
+# Variables
+napoleon="$dev/Napoleon"
+
+# Aliases
+alias nap="cd $napoleon"
+
+###########################################################################
+# Aliases: .NET
+###########################################################################
+alias dwr="dotnet watch run"
+alias dr="dotnet run"
+alias dres="dotnet restore"
+alias drb="dotnet rebuild"
+alias dnb="dotnet build"
+alias dnc="dotnet clean"
