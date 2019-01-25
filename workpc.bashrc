@@ -122,7 +122,7 @@ alias ng="cd $ng"
 ########################################################################### 
 
 # Variables
-plaid="$dev/PlaidSDK"
+plaid="$dev/_PlaidSDK"
 
 # Aliases
 alias plaid="cd $plaid"
